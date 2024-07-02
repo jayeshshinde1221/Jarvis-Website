@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+:root{
+    --primary:#1566D6
+}
+.primary-button{
+    outline: none;
+    border: none;
+    width: 164px;
+    height: 56px;
+    padding: 16px 24px;
+    border-radius: 62px;
+    background-color: var(--primary);
+    color: white;
+}
+/* nav bar section */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.logo{
+    
+    margin-top: 15px;
+    margin-left: 80px;
+
+}
+.logo a img{
+width: 133px;
+}
+.navbar{
+    display: flex;
+}
+.navbar ul{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0px 18px;
+    color: black;
+
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active{
+    color:#00abf0;
+    border-bottom: 1px solid #00abf0;
+    background: #fff !important;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    z-index: 9;
+}
+
+.JV-intro .container {
+    max-width: 880px;
+}
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text-center {
+    text-align: center !important;
+}
+
+.text-medium {
+    font-weight: 500 !important;
+}
+
+.text-small {
+    font-size: 14px;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+.JV-intro h1 {
+    margin-bottom: 32px;
+}
+h1 {
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 104.627%;
+    letter-spacing: -2.68px;
+    text-transform: capitalize;
+}
+
+.text-extra-big {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.44px;
+    text-transform: capitalize;
+}
+.JV-intro .btn {
+    margin-top: 32px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.44px;
+    padding: 20px 40px;
+    border-radius: 62px;
+}
+
